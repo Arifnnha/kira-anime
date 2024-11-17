@@ -1,4 +1,4 @@
-const page = () => {
+const page = ({ params }) => {
   return (
     <div>
       <h1>Search Page</h1>
