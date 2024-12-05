@@ -21,3 +21,45 @@ img {
 img:hover {
   scale: 102%;
 }
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #e63946;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #457b9d;
+  border-top: 5px solid #e63946;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-text {
+  margin-top: 20px;
+  font-size: 18px;
+  animation: fade 1.5s infinite alternate;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
