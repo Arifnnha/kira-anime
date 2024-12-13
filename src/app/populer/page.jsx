@@ -3,8 +3,8 @@
 import AnimeList from "@/components/AnimeList";
 import HeaderMenu from "@/components/utilities/HeaderMenu";
 import Pagination from "@/components/utilities/Pagination";
+import { getAnimeResponse } from "@/libs/api-list";
 import { useEffect, useState } from "react";
-import { getAnimeResponse } from "../libs/api-list";
 
 const Page = () => {
   const [page, setPage] = useState(1);
