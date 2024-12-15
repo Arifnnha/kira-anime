@@ -8,7 +8,7 @@ const UserActionButton = async () => {
   const actionURL = user ? "/api/auth/signout" : "/api/auth/signin";
 
   return (
-    <div className="flex justyfy-between gap-2">
+    <div className="flex justyfy-between gap-2 text-xl">
       {user ? <Link href="/users/dashboard">Dashboard</Link> : null}
       <Link href={actionURL} className="">
         {actionLabel}

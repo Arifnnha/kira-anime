@@ -16,7 +16,7 @@ const Brand = () => {
 
   return (
     <Link
-      className="flex items-center font-bold text-xl md:text-3xl sm:text-2xl"
+      className="flex items-center font-bold text-xl lg:text-3xl sm:text-2xl"
       href="/"
       onClick={handleClick}
     >

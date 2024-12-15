@@ -5,7 +5,7 @@ import UserActionButton from "./UserActionButton";
 const Navbar = () => {
   return (
     <header className="bg-color-accent">
-      <div className="flex md:flex-row flex-col justify-between items-center p-4 gap-2 w-full">
+      <div className="flex md:flex-row flex-col justify-between md:items-center p-4 gap-2">
         <Brand />
         <InputSearch />
         <UserActionButton />
