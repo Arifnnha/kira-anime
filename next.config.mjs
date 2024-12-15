@@ -5,6 +5,7 @@ const nextConfig = {
       {
         hostname: "cdn.myanimelist.net",
       },
+      { hostname: "private-avatars.githubusercontent.com" },
     ],
   },
 };
